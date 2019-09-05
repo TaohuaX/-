@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "unit": "karma start"
+    "unit": "karma start",
+    "service": "node mochaRunning"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,10 @@
     "karma": "^4.3.0",
     "karma-coverage": "^2.0.1",
     "karma-jasmine": "^2.0.1",
-    "karma-phantomjs-launcher": "^1.0.4"
+    "karma-phantomjs-launcher": "^1.0.4",
+    "koa": "^2.8.1",
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.1.0",
+    "supertest": "^4.0.2"
   }
 }

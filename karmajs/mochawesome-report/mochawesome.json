@@ -1,0 +1,101 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-09-05T09:02:49.885Z",
+    "end": "2019-09-05T09:02:49.927Z",
+    "duration": 42,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8b93d2ea-bffb-46f7-93e4-2a5ae839fdcd",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "aff92f11-c827-4c58-b7b8-585bc7678d5c",
+          "title": "demo1",
+          "fullFile": "F:\\练习\\karmajs\\service\\index.spec.js",
+          "file": "\\service\\index.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "服务数据",
+              "fullTitle": "demo1 服务数据",
+              "timedOut": false,
+              "duration": 26,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "request()\n.get('/')\n.set('Accept','application/json')\n.expect('Content-type',/json/)\n.expect(200)\n.end(function (err, res) {\n    if (err) {\n        done(err)\n    }\n    if (res.body.data === '能跑的小蜗牛') {\n        done()\n    } else {\n        done(new Erroe('接口不正确'))\n    }\n})",
+              "err": {},
+              "uuid": "3d5e1aa2-de4b-473d-808e-8711699e9002",
+              "parentUUID": "aff92f11-c827-4c58-b7b8-585bc7678d5c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3d5e1aa2-de4b-473d-808e-8711699e9002"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 26,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reporDir": "./docs/mochawesome-reporter"
+      },
+      "version": "4.0.1"
+    }
+  }
+}
