@@ -17,6 +17,7 @@
     "koa": "^2.8.1",
     "mocha": "^6.2.0",
     "mochawesome": "^4.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.4",
     "supertest": "^4.0.2"
   }
 }
