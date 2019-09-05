@@ -6,3 +6,7 @@ karma + karma-coverage
 ```
 mocha + supertest + mochawesome
 ```
+## e2e
+```
+selenium-webdriver + 浏览器的驱动
+```
