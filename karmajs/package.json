@@ -1,0 +1,17 @@
+{
+  "name": "karmajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "unit": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^4.3.0",
+    "karma-coverage": "^2.0.1",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4"
+  }
+}
